@@ -1,23 +1,9 @@
-import path from 'path'
+#!/usr/bin/env node
 
-import { createExamples } from '@meltwater/examplr'
+import landlubber from 'landlubber'
 
-import todo from './todo.js'
+import * as todo from './todo.js'
 
-const examples = {
-  todo
-}
+const commands = [todo]
 
-const envVars = ['LOG_LEVEL', 'LOG_FILTER', 'LOG_OUTPUT_MODE']
-
-const defaultOptions = {}
-
-const { runExample } = createExamples({
-  examples,
-  envVars,
-  defaultOptions
-})
-
-runExample({
-  local: path.resolve('examples', 'local.json')
-})
+await landlubber(commands).parse()

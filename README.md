@@ -1,7 +1,7 @@
 # JS Module Lab
 
 [![npm](https://img.shields.io/npm/v/@rxlabs/jsmodule.svg)](https://www.npmjs.com/package/@rxlabs/jsmodule)
-[![GitHub Actions](https://github.com/rxlabs/jsmodule/workflows/check/badge.svg)](https://github.com/rxlabs/jsmodule/actions)
+[![GitHub Actions](https://github.com/rxlabs/jsmodule/actions/workflows/check.yml/badge.svg)](https://github.com/rxlabs/jsmodule/actions/workflows/check.yml)
 
 JS module.
 
